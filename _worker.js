@@ -9,7 +9,7 @@ let userID = '90df8547-5697-4b12-9602-3492f69ae57d';
 let proxyIP = '';// 小白勿动，该地址并不影响你的网速，这是给CF代理使用的。'cdn.xn--b6gac.eu.org, cdn-all.xn--b6gac.eu.org, workers.cloudflare.cyou'
 
 let sub = '';// 留空则使用内置订阅
-let subconverter = 'SUBAPI.fxxk.dedyn.io';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假uuid和host订阅。
+let subconverter = 'owo.o00o.ooo';// clash订阅转换后端，目前使用CM的订阅转换功能。自带虚假uuid和host订阅,默认为：SUBAPI.fxxk.dedyn.io。
 let subconfig = "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online.ini"; //订阅配置文件
 let subProtocol = 'https';
 // The user name and password do not contain special characters
