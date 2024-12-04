@@ -158,6 +158,33 @@ Telegram交流群：[@CMLiussss](https://t.me/CMLiussss)，**感谢[Alice Networ
 
 **注意: 同时填入`CFEMAIL`和`CFKEY`才会启用显示请求使用量，但是不推荐使用！没必要给一个Worker项目这么高的权限！后果自负！！！**
 
+
+注意事项
+关于KEY与UUID：
+
+    填入KEY变量后，将停用UUID变量，请确保二者选其一使用！
+
+    填写KEY后，您的永久订阅地址为：https://[YOUR-URL]/[YOUR-KEY]；
+    使用动态UUID订阅时：
+        动态UUID需手动在永久订阅配置页内获得；
+        临时订阅地址为：https://[YOUR-URL]/[动态UUID]；
+        订阅有效时间为：1个TIME周期；
+        节点可使用时间：2个TIME周期，即动态UUID失效后，节点仍可使用1个额外周期，但无法继续更新订阅。
+
+关于SOCKS5与PROXYIP：
+
+    填入SOCKS5后，将停用PROXYIP。请确保二者选其一使用！
+
+关于SUB与ADD*变量：
+
+    填入SUB后，将停用由ADD*类变量生成的订阅内容。请确保二者选其一使用！
+
+当SUB和ADD*均为空时：
+
+    脚本将自动生成基于CF随机IP的线路，每次更新订阅时会生成不同的随机IP，确保您的订阅不会失联！
+
+
+
 ## 实用小技巧
 
 **该项目部署的订阅可通过添加`sub`键值快速更换优选订阅生成器！** 
